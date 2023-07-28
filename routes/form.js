@@ -7,8 +7,6 @@ const {
   deleteSingleForm,
 } = require("../controller/formController");
 
-console.log("");
-
 router.post("/forms", createForm);
 router.get("/getForm", getForm);
 router.get("/getSingleForm/:id", getSingleForm);
